@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:src="@drawable/ic_delete"
+            android:padding="@dimen/len_10"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="fill_parent"
+            android:textSize="@dimen/font_16"
+            android:textColor="@color/white"
+            android:text="地址"/>
+
+        <ImageView
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/len_10"
+            android:src="@drawable/ic_done"
+            android:text="确认"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <me.sunlight.sdk.common.widget.dialog.WheelView
+            android:id="@+id/id_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </me.sunlight.sdk.common.widget.dialog.WheelView>
+
+        <me.sunlight.sdk.common.widget.dialog.WheelView
+            android:id="@+id/id_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </me.sunlight.sdk.common.widget.dialog.WheelView>
+
+        <me.sunlight.sdk.common.widget.dialog.WheelView
+            android:id="@+id/id_district"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </me.sunlight.sdk.common.widget.dialog.WheelView>
+    </LinearLayout>
+
+</LinearLayout>

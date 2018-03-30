@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="net.qiujuer.genius:ui-2.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ui-2.0.1.aar/0d900d9dd57f4d3a370a1c713b02ebbf/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ui-2.0.1.aar/0d900d9dd57f4d3a370a1c713b02ebbf/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.qiujuer.genius/ui/2.0.1/9e767712124516c629dd9ba1487e0df6040af102/ui-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

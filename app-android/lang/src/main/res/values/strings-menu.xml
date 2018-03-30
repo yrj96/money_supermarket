@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_slide_menu_setting">设置</string>
+    <string name="label_setting_title">选择语言</string>
+    <string name="label_setting_chinese">中文</string>
+    <string name="label_setting_english">英文</string>
+    <string name="label_setting_cancel">取消</string>
+
+
+
+    <!--左滑菜单的标签-->
+    <string name="label_menu_personal_profile">个人档案</string>
+    <string name="label_menu_attention">注意</string>
+    <string name="label_menu_contact_list">通讯录</string>
+    <string name="label_menu_language">语言</string>
+    <string name="label_menu_business_profile">业务概况</string>
+    <string name="label_menu_business_function">企业机能</string>
+    <string name="label_menu_create_business">创建企业</string>
+    <string name="label_menu_setting">设置</string>
+
+    <!--右滑菜单setting-->
+    <string name="label_menu_setting_title">设置</string>
+    <string name="label_menu_setting_privacy">设置隐私信息</string>
+    <string name="label_menu_setting_account">账号</string>
+    <string name="label_menu_setting_password">密码</string>
+    <string name="label_menu_setting_pushing">设置推送</string>
+    <string name="label_menu_setting_gps">gps定位</string>
+    <string name="label_menu_setting_chat">聊天信息推送</string>
+    <string name="label_menu_setting_workflow">工作流推送</string>
+    <string name="label_menu_setting_attention">义项推送</string>
+    <string name="label_menu_setting_folder">文件推送</string>
+    <string name="label_menu_setting_mission">认为推送</string>
+    <string name="label_menu_setting_support">Bi支持</string>
+    <string name="label_menu_setting_about">关于我们</string>
+    <string name="label_menu_setting_contactus">联系我们</string>
+    <string name="label_menu_setting_qa">Q&amp;A</string>
+
+
+</resources>

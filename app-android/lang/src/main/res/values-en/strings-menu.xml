@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_slide_menu_setting">SETTING</string>
+    <string name="label_setting_title">Choose Language</string>
+    <string name="label_setting_chinese">Chinese</string>
+    <string name="label_setting_english">English</string>
+    <string name="label_setting_cancel">Cancel</string>
+
+
+    <!--左滑菜单的标签-->
+    <string name="label_menu_personal_profile">PERSONAL PROFILE</string>
+    <string name="label_menu_attention">ATTENTION</string>
+    <string name="label_menu_contact_list">CONTACT LIST</string>
+    <string name="label_menu_language">LANGUAGE</string>
+    <string name="label_menu_business_profile">BUSINESS PROFILE</string>
+    <string name="label_menu_business_function">BUSINESS FUNCTION</string>
+    <string name="label_menu_create_business">CREATE BUSINESS</string>
+    <string name="label_menu_setting">SETTING</string>
+
+
+
+    <!--右滑菜单setting-->
+    <string name="label_menu_setting_title">SETTING</string>
+    <string name="label_menu_setting_privacy">Set privacy information</string>
+    <string name="label_menu_setting_account">ACCOUNT</string>
+    <string name="label_menu_setting_password">PASSWORD</string>
+    <string name="label_menu_setting_pushing">Set pushing</string>
+    <string name="label_menu_setting_gps">GPS YOUR LOCATION</string>
+    <string name="label_menu_setting_chat">CHAT MESSAGE PUSHING</string>
+    <string name="label_menu_setting_workflow">STRUCTURE&amp;WORKFLOW PUSHING</string>
+    <string name="label_menu_setting_attention">ATTENTION PUSHING</string>
+    <string name="label_menu_setting_folder">FOLDER FILE PUSHING</string>
+    <string name="label_menu_setting_mission">MISSION PUSHING</string>
+    <string name="label_menu_setting_support">Bi support</string>
+    <string name="label_menu_setting_about">ABOUT US</string>
+    <string name="label_menu_setting_contactus">CONTACT US</string>
+    <string name="label_menu_setting_qa">Q&amp;A</string>
+
+
+
+</resources>
+
+
+
+
