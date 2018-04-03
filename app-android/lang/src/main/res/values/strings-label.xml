@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--login-->
+    <string name="label_login_tips">邮箱或者手机号</string>
+    <string name="label_login_action">登陆</string>
+    <string name="label_login_register">立即注册</string>
+    <string name="label_login_forget">忘记密码?</string>
+    <string name="label_login_account_hint">账户</string>
+    <string name="label_login_password_hint">密码</string>
+
+    <!--register-->
+    <string name="label_register_sign_up">注册你的账号</string>
+    <string name="label_register_email">邮箱</string>
+    <string name="label_register_name">姓名</string>
+    <string name="label_register_phone">手机</string>
+    <string name="label_register_email_hint">邮箱地址</string>
+    <string name="label_register_phone_hint">手机号</string>
+    <string name="label_register_wrong_code">错误</string>
+    <string name="label_register_resend_code">重新发送验证吗</string>
+    <string name="label_register_password">密码</string>
+    <string name="label_register_password_hint">密码</string>
+    <string name="label_register_password_again_hint">确认密码</string>
+    <string name="label_register_photo">你的头像</string>
+    <string name="label_register_jump">跳过</string>
+    <string name="label_register_complete">恭喜 !!!</string>
+    <string name="label_register_complete_begin">开始</string>
+
+    <!--forget-->
+    <string name="label_forget_title">选择方式</string>
+    <string name="label_forget_personal">个人的</string>
+    <string name="label_forget_email">邮箱</string>
+    <string name="label_forget_phone">手机号</string>
+    <string name="label_forget_phone_tips">设置新的密码</string>
+    <string name="label_forget_phone_newpwd">新的密码</string>
+    <string name="label_forget_phone_newpwd_hint">新的密码</string>
+    <string name="label_forget_phone_confirmpwd_hint">确认密码</string>
+
+    <!--home-->
+    <!--4个tab-->
+    <string name="label_tab_top">首页</string>
+    <string name="label_tab_chat">聊天</string>
+    <string name="label_tab_folder">文件</string>
+    <string name="label_tab_mission">任务</string>
+
+
+    <!--输入相关-->
+    <string name="label_input_password">请输入密码</string>
+    <string name="label_input_confirm_password">请输入确认密码</string>
+    <string name="label_twice_differ">两次输入不一致</string>
+    
+
+</resources>

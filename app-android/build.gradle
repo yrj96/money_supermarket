@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+        classpath 'com.novoda:bintray-release:0.5.0'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    // 版本号相关
+    versionCode = 20
+    versionName = '3.0.0'
+
+    minSdkVersion = 15
+    targetSdkVersion = 25
+
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.2'
+
+    // 相关依赖库版本
+    supportVersion = '27.0.2'
+    butterknifeVersion = '8.5.1'
+    geniusVersion = '2.0.1'
+    glideVersion = '3.7.0'
+    circleimageviewVersion = '2.1.0'
+    easyPMVersion = "0.3.0"
+
+    ucropVersion = "2.2.0-native"
+    gsonVersion = '2.8.0'
+    loggerVersion = '2.1.1'
+    okgoVersion='3.0.4'
+
+}

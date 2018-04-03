@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--login-->
+    <string name="label_login_tips">PERSONAL EMAIL OR PHONE</string>
+    <string name="label_login_action">login</string>
+    <string name="label_login_register">sign up now</string>
+    <string name="label_login_forget">forget password?</string>
+    <string name="label_login_account_hint">account</string>
+    <string name="label_login_password_hint">password</string>
+
+    <!--register-->
+    <string name="label_register_sign_up">sign up your account</string>
+    <string name="label_register_email">personal email</string>
+    <string name="label_register_name">name</string>
+    <string name="label_register_phone">personal phone</string>
+    <string name="label_register_email_hint">your email</string>
+    <string name="label_register_phone_hint">your phone</string>
+    <string name="label_register_wrong_code">wrong code</string>
+    <string name="label_register_resend_code">resend author code</string>
+    <string name="label_register_password">password</string>
+    <string name="label_register_password_hint">password</string>
+    <string name="label_register_password_again_hint">again</string>
+    <string name="label_register_photo">your photo</string>
+    <string name="label_register_jump">jump it</string>
+    <string name="label_register_complete">congratulation !!!</string>
+    <string name="label_register_complete_begin">begin</string>
+
+    <!--forget-->
+    <string name="label_forget_title">SELECT WAY TO RESET YOUR PASSWORD</string>
+    <string name="label_forget_personal">PERSONAL</string>
+    <string name="label_forget_email">EMAIL</string>
+    <string name="label_forget_phone">PHONE</string>
+    <string name="label_forget_phone_tips">SET YOUR NEW PASSWORD</string>
+    <string name="label_forget_phone_newpwd">NEW PASSWORD</string>
+    <string name="label_forget_phone_newpwd_hint">please input new password</string>
+    <string name="label_forget_phone_confirmpwd_hint">please input confirm password</string>
+
+    <!--home-->
+    <!--4个tab-->
+    <string name="label_tab_top">top</string>
+    <string name="label_tab_chat">chat</string>
+    <string name="label_tab_folder">folder</string>
+    <string name="label_tab_mission">mission</string>
+
+
+    <!--输入相关-->
+    <string name="label_input_password">please enter password</string>
+    <string name="label_input_confirm_password">please enter confirm password</string>
+    <string name="label_twice_differ">twice input differ</string>
+
+
+</resources>
