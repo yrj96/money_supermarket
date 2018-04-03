@@ -1,24 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-* {
-    font-family: '微软雅黑', 'Microsoft YaHei', '宋体', Tahoma, Helvetica, Arial, sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    font-family: '微软雅黑', 'Microsoft YaHei', '宋体', Tahoma, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-html {
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 162px;
-}
-
+// 采用了PrimeNG的Bootstrap风格皮肤，依赖Bootstrap 3.7和font-awesome字体图标
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.min.css";
-@import "~jquery-ui-dist/jquery-ui.css";
+
+//这是PrimeNG自己的皮肤样式
 @import "/assets/css/primeng-themes-my/primeng.min.css";
 @import "/assets/css/primeng-themes-my/themes/bootstrap-my/theme.css";
+
+//这是应用的整体布局样式，放在最底部引入，用来覆盖以上样式里面不好看的部分选择器
+@import "/assets/css/nicefish/layout-default.scss";

@@ -1,9 +1,6 @@
 {
     "app":{
         "welcome":"Welcome",
-        "echarts":"Echarts",
-        "gaodemap":"Amap",
-        "jsplumb":"BPM",
         "logout":"Logout",
         "login":"Login",
         "register":"Register",

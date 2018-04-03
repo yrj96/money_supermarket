@@ -9,7 +9,6 @@
         "outDir": "dist",
         "assets": [
             "assets",
-            "mock-data",
             "favicon.ico"
         ],
         "index": "index.html",
@@ -17,7 +16,7 @@
         "polyfills": "polyfills.ts",
         "test": "test.ts",
         "tsconfig": "tsconfig.json",
-        "prefix": "app",
+        "prefix": "",
         "styles": [
             "styles.scss"
         ],
@@ -55,9 +54,7 @@
             "../node_modules/tinymce/plugins/textcolor/plugin.js",
             "../node_modules/tinymce/plugins/colorpicker/plugin.js",
             "../node_modules/tinymce/plugins/textpattern/plugin.js",
-            "../node_modules/tinymce/plugins/imagetools/plugin.js",
-            "../node_modules/jquery/dist/jquery.min.js",
-            "../node_modules/jquery-ui-dist/jquery-ui.min.js"
+            "../node_modules/tinymce/plugins/imagetools/plugin.js"
         ],
         "environmentSource": "environments/environment.ts",
         "environments": {

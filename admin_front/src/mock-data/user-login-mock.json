@@ -1,5 +1,5 @@
 {
     "id": 1,
-    "userName": "admin",
+    "username": "admin",
     "token": "fake-jwt-token"
 }
