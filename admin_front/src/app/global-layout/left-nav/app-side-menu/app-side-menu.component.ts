@@ -28,7 +28,8 @@ export class AppSideMenuComponent implements OnInit {
             icon:'fa-magic',
             children: [
                 { name: "文章管理",icon:'fa-mobile',route:'post/posttable/page/1' },
-                { name: "评论管理",icon:'fa-minus',route:'comment/commenttable/page/1' }
+                { name: "评论管理",icon:'fa-minus',route:'comment/commenttable/page/1' },
+                { name: "流量管理",icon:'fa-home',route:'analysis/' },
             ]
         },
         {
