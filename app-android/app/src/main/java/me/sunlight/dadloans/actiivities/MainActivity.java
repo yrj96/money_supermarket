@@ -1,5 +1,6 @@
 package me.sunlight.dadloans.actiivities;
 
+import android.graphics.Color;
 import android.view.View;
 import android.widget.FrameLayout;
 
@@ -25,7 +26,6 @@ public class MainActivity extends Activity {
     private DoubleClickExitDetector doubleClickExitDetector;
 
 
-
     @Override
     protected int getContentLayoutId() {
         return R.layout.activity_main;
@@ -38,9 +38,12 @@ public class MainActivity extends Activity {
         getTitleBar().addAction(new CommonTitleBar.ImageAction(R.mipmap.tab_mine_normal) {
             @Override
             public void performAction(View view) {
-                LoginActivity.runActivity(mContext,LoginActivity.class);
+                LoginActivity.runActivity(mContext, LoginActivity.class);
             }
         });
+
+        getTitleBar().setTitle("首页");
+        getTitleBar().setTitleColor(Color.WHITE);
 
         getSupportFragmentManager()
                 .beginTransaction()
@@ -57,22 +60,14 @@ public class MainActivity extends Activity {
         mBottomTab.initTab(R.color.black_alpha_48, R.color.colorPrimary);
         mBottomTab
                 .addTab(new TabModel.Builder()
-                        .addTabText("首页")
-                        .addTabNormalIcon(R.mipmap.tab_graborder_normal)
-                        .addTabSelectedIcon(R.mipmap.tab_graborder_selected)
+                        .addTabNormalIcon(R.mipmap.tab_home_normal)
+                        .addTabSelectedIcon(R.mipmap.tab_home_selected)
                         .build())
                 .addTab(new TabModel.Builder()
-                        .addTabText("额度高")
-                        .addTabNormalIcon(R.mipmap.tab_mine_normal)
-                        .addTabSelectedIcon(R.mipmap.tab_mine_selected)
+                        .addTabNormalIcon(R.mipmap.tab_loan_normal)
+                        .addTabSelectedIcon(R.mipmap.tab_loan_selected)
                         .build())
                 .addTab(new TabModel.Builder()
-                        .addTabText("利率低")
-                        .addTabNormalIcon(R.mipmap.tab_mine_normal)
-                        .addTabSelectedIcon(R.mipmap.tab_mine_selected)
-                        .build())
-                .addTab(new TabModel.Builder()
-                        .addTabText("放贷快")
                         .addTabNormalIcon(R.mipmap.tab_mine_normal)
                         .addTabSelectedIcon(R.mipmap.tab_mine_selected)
                         .build());

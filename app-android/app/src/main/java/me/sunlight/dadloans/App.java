@@ -11,7 +11,6 @@ import me.sunlight.sdk.common.app.Application;
  *     version:
  * </pre>
  */
-
 public class App extends Application {
 
     @Override

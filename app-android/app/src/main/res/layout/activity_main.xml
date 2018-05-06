@@ -13,12 +13,19 @@
         android:layout_above="@+id/bottomTab" />
 
 
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="@dimen/len_52"-->
+        <!--android:background="#f6f6f9" />-->
+
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/len_52"
-        android:background="#f6f6f9" />
+        android:background="#b6b6d7" />
 
     <me.sunlight.sdk.common.widget.bottombar.tab.BottomTab
         android:id="@+id/bottomTab"

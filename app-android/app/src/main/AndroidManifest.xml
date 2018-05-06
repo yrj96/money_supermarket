@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".actiivities.account.LoginActivity" />
-        <activity android:name=".actiivities.account.RegisterActivity"></activity>
+        <activity android:name=".actiivities.account.RegisterActivity" />
+        <activity android:name=".actiivities.loans.ApplyLoansActivity"></activity>
     </application>
 
 </manifest>

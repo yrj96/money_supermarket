@@ -3,29 +3,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f2f2f2"
     android:orientation="vertical">
 
-    <cn.bingoogolapple.bgabanner.BGABanner
-        android:id="@+id/fragment_home_banner"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:banner_indicatorGravity="bottom|right"
-        app:banner_numberIndicatorTextColor="#000"
-        app:banner_pageChangeDuration="1000"
-        app:banner_pointAutoPlayAble="true"
-        app:banner_pointAutoPlayInterval="5000"
-        app:banner_pointContainerBackground="@android:color/transparent"
-        app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
-        app:banner_pointTopBottomMargin="5dp"
-        app:banner_tipTextSize="12sp"
-        app:banner_transitionEffect="accordion" />
+        android:layout_height="wrap_content">
+
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/fragment_home_banner"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:banner_indicatorGravity="bottom|right"
+            app:banner_numberIndicatorTextColor="#000"
+            app:banner_pageChangeDuration="1000"
+            app:banner_pointAutoPlayAble="true"
+            app:banner_pointAutoPlayInterval="5000"
+            app:banner_pointContainerBackground="@android:color/transparent"
+            app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
+            app:banner_pointTopBottomMargin="5dp"
+            app:banner_tipTextSize="12sp"
+            app:banner_transitionEffect="accordion" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/len_10"
+            android:layout_marginLeft="@dimen/len_10"
+            android:layout_marginRight="@dimen/len_10"
+            android:layout_marginTop="170dp"
+            app:cardCornerRadius="@dimen/len_4"
+            app:cardElevation="@dimen/len_4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/len_16"
+                android:paddingLeft="@dimen/len_10"
+                android:paddingRight="@dimen/len_10"
+                android:paddingTop="@dimen/len_16">
 
 
-    <TextView
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_schedule_img" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/len_12"
+                    android:src="@mipmap/ic_schedule_txt" />
+
+                <ImageView
+                    android:id="@+id/home_img_doLoans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/len_24"
+                    android:src="@mipmap/ic_to_load" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/len_10"
+        android:layout_marginRight="@dimen/len_10"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_recommend" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_recommend_ryList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="这是首页" />
-
-
+        android:layout_marginLeft="@dimen/len_10"
+        android:layout_marginRight="@dimen/len_10" />
 </LinearLayout>
